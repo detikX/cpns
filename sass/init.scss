@@ -8,6 +8,11 @@ $colorred: #373c40; //#87c4ff; //#7cffb1; //(139,215,219)
 $third: #baf5ed; //(186,245,237)
 // #ecf3f1	//(236,243,241)
 
+$colorRed: rgb(200, 0, 0);
+$colorBlueUs: rgb(63, 60, 110);
+$colorBlue: rgb(0, 49, 156);
+$flagSize: 120px;
+
 // $colorred: #d8deeb;
 // $colorred: #0b1126;
 $colorsecond: #42d4bf;
@@ -204,10 +209,10 @@ section {
 
     h3 {
         // color: $colorred;
-        font-family: "guru", sans-serif;
+        font-family: "Sour Gummy", sans-serif;
         font-weight: 700;
-        color: #124646;
-        font-size: 2rem;
+        color: #fcfcfc;
+        font-size: 3.3rem;
         @media screen and (max-width: 768px) {
             font-size: 1.6rem;
         }
