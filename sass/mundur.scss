@@ -1,0 +1,35 @@
+.mundur {
+    background: silver;
+    padding: 0;
+    .gedung {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .orang-orang {
+        position: absolute;
+        bottom: -4%;
+        left: 8%;
+        width: 40vw;
+        height: auto;
+        // filter: drop-shadow(0px 1px 6px #1b1b1b); q
+        @media screen and (max-width: 768px) {
+            bottom: 5%;
+            left: -30%;
+            width: 110%;
+            height: auto;
+            filter: initial;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+}
