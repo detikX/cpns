@@ -11,22 +11,23 @@ gsap.timeline({
     }
 })
     .from(".text1", {
-        x: innerWidth * 1
+        x: innerWidth * 1,
+
     })
     .from(".text12", {
-        x: innerWidth * 2
+        x: innerWidth * 1.2
     })
     .from(".text13", {
-        x: innerWidth * 3
+        x: innerWidth * 1.5
     })
     .from(".text2", {
         x: innerWidth * -1
     })
     .from(".text23", {
-        x: innerWidth * -2
+        x: innerWidth * -1.5
     })
     .from(".text24", {
-        x: innerHeight * -2
+        x: innerHeight * -1.2
     })
     .from(".angkax", {
         y: innerHeight * 1,
