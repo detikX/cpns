@@ -1,5 +1,8 @@
 .formasi {
     padding: 0;
+    .wrap-detikx {
+        margin-top: -50vh;
+    }
     .sticky-mode {
         &::after {
             content: "";

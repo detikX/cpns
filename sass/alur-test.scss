@@ -1,0 +1,113 @@
+.alur-test {
+    background: silver;
+
+    .judul-tab {
+        font-size: 1.5rem;
+        margin-left: 16px;
+    }
+    .wrap-detikx {
+        @media screen and (max-width: 768px) {
+            top: 20vh;
+        }
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: 0%;
+        right: 0;
+        left: 0;
+        width: 100%;
+        z-index: -1;
+        height: 220px;
+        background: #e7e8e2;
+        // rotate: -3deg;
+        @media screen and (max-width: 768px) {
+            content: "";
+            position: absolute;
+            bottom: 8%;
+            right: 0;
+            left: -24%;
+            width: 200%;
+            z-index: -1;
+            rotate: -33deg;
+            height: 3%;
+            background: #e7e8e2;
+        }
+    }
+    .h-100 {
+        height: 100vh !important;
+    }
+    .imaging {
+        // inset: 0;
+        position: absolute;
+        left: -16%;
+        right: 0;
+        bottom: 0;
+        width: 80%;
+        height: 80%;
+
+        &:before {
+            content: "";
+            position: absolute;
+            top: -6%;
+            width: 29vw;
+            height: 16vh;
+            border-right: 2px dashed #fff;
+            border-bottom: 2px dashed #fff;
+            right: 16%;
+            z-index: -1;
+            @media screen and (max-width: 768px) {
+                top: -16%;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            bottom: 8%;
+            width: 100%;
+            height: auto;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    .slider-alur {
+        width: 85%;
+        margin: 0 auto;
+        background: rgba($color: white, $alpha: 1);
+        padding: 16px;
+        // border-radius: 24px;
+        position: relative;
+
+        @media screen and (max-width: 768px) {
+            width: 90%;
+        }
+        .boxnya {
+            // background: rgba($color: white, $alpha: 0.7);
+            border-radius: 12px;
+            padding: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // z-index: 8;
+            height: auto;
+            margin: 0;
+            position: relative;
+            .no {
+                // position: absolute;
+                left: -8%;
+                top: 0;
+                color: red;
+                font-size: 2rem;
+            }
+            p {
+                // position: absolute;
+                // left: 50%;
+                text-align: center;
+                // top: 50%;
+                // translate: -50% -50%;
+                color: #1b1b1b;
+            }
+        }
+    }
+}

@@ -267,7 +267,7 @@ section {
             background: rgba(#ce9352, 0.5);
         }
         &::before {
-            font-family: "fontAwesome" !important;
+            font-family: "Font Awesome 5 Pro" !important;
             font-size: 32px !important;
             color: #fff !important;
             font-weight: 700 !important;
@@ -571,7 +571,8 @@ section {
 }
 
 .hello {
-    background: rgba($color: white, $alpha: 0.6);
+    // background: rgba($color: white, $alpha: 0.8);
+    background: linear-gradient(to right, white, rgba(white, 0.7));
     padding: 8px;
     border-radius: 16px;
     margin-bottom: 50vh;

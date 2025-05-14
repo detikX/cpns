@@ -14,20 +14,20 @@ gsap.timeline({
         x: innerWidth * 1,
 
     })
-    .from(".text12", {
-        x: innerWidth * 1.2
+    .from(".text2", {
+        x: innerWidth * 1.8
     })
-    .from(".text13", {
+    .from(".text3", {
         x: innerWidth * 1.5
     })
-    .from(".text2", {
+    .from(".text4", {
         x: innerWidth * -1
     })
-    .from(".text23", {
+    .from(".text5", {
         x: innerWidth * -1.5
     })
-    .from(".text24", {
-        x: innerHeight * -1.2
+    .from(".text6", {
+        y: innerHeight * 1.5
     })
     .from(".angkax", {
         y: innerHeight * 1,
@@ -36,3 +36,13 @@ gsap.timeline({
         y: innerHeight * 1,
 
     })
+
+
+
+
+$('.slider-alur').slick({
+    infinite: true,
+    speed: 300,
+    // fade: true,
+    cssEase: 'linear'
+});
