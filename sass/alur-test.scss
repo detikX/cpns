@@ -3,11 +3,11 @@
 
     .judul-tab {
         font-size: 1.5rem;
-        margin-left: 16px;
+        margin-left: 56px;
     }
     .wrap-detikx {
         @media screen and (max-width: 768px) {
-            top: 20vh;
+            top: 10vh;
         }
     }
     &::after {
@@ -61,7 +61,7 @@
             }
         }
         @media screen and (max-width: 768px) {
-            bottom: 8%;
+            bottom: 16%;
             width: 100%;
             height: auto;
         }
