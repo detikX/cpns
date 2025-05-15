@@ -262,6 +262,12 @@ section {
         height: 40px;
         border-radius: 50%;
         background: rgba(#ce9352, 0.8);
+        @media screen and (max-width: 768px) {
+            width: 25px;
+            height: 25px;
+            top: 100%;
+            // border-radius: 50%;
+        }
         &:focus,
         &:hover {
             background: rgba(#ce9352, 0.5);
@@ -272,14 +278,14 @@ section {
             color: #fff !important;
             font-weight: 700 !important;
             @media screen and (max-width: 766px) {
-                font-size: 32px !important;
+                font-size: 20px !important;
             }
         }
     }
     &-prev {
         left: -16px !important;
         @media screen and (max-width: 768px) {
-            left: -16px !important;
+            left: 20% !important;
         }
         &::before {
             content: "\f104" !important;
@@ -288,7 +294,7 @@ section {
     &-next {
         right: -16px !important;
         @media screen and (max-width: 768px) {
-            right: -16px !important;
+            right: 20% !important;
         }
         &::before {
             content: "\f105" !important;
