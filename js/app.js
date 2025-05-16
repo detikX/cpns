@@ -48,15 +48,4 @@ $('.slider-alur').slick({
 });
 
 
-var flag = document.getElementById("indonesia-flag");
-var w = flag.innerWidth || flag.clientWidth;
 
-for (var i = 0; i < w; i++) {
-    var span = document.createElement("span");
-    span.style.backgroundPosition = -i + "px 0";
-    span.style.WebkitAnimationDelay = i * 10 + 'ms';
-    span.style.animationDelay = i * 10 + 'ms';
-    flag.appendChild(span);
-}
-
-flag.className = "flag on";

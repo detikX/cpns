@@ -189,41 +189,7 @@
         }]
     });
 
-    // When clicking legend items, also toggle connectors and pies
-    // chart.legend.allItems.forEach(item => {
-    //     const setVisible = item.setVisible;
 
-    //     item.setVisible = function () {
-    //         const item = this;
-
-    //         setVisible.call(item);
-
-    //         chart.series[0].points.forEach(point => {
-    //             if (
-    //                 chart.colorAxis[0].dataClasses[point.dataClass].name ===
-    //                 item.name
-    //             ) {
-    //                 // Find this state's pie and set visibility
-    //                 Highcharts.find(chart.series, function (item) {
-    //                     return item.name === point.id;
-    //                 }).setVisible(item.visible, false);
-
-    //                 // Do the same for the connector point if it exists
-    //                 const connector = Highcharts.find(
-    //                     chart.series[2].points,
-    //                     item => item.name === point.id
-    //                 );
-
-    //                 if (connector) {
-    //                     connector.setVisible(item.visible, false);
-    //                 }
-    //             }
-    //         });
-    //         chart.redraw();
-    //     };
-    // });
-
-    // Add the pies after chart load, optionally with offset and connectors
     chart.series[0].points.forEach(state => {
         // Add the pie for this state
         // chart.addSeries({
