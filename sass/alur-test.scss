@@ -47,7 +47,7 @@
     .imaging {
         // inset: 0;
         position: absolute;
-        left: -16%;
+        left: -20%;
         right: 0;
         bottom: 0;
         width: 80%;
@@ -59,8 +59,8 @@
             top: -6%;
             width: 29vw;
             height: 16vh;
-            border-right: 2px dashed #fff;
-            border-bottom: 2px dashed #fff;
+            border-top: 2px dashed #fff;
+            border-left: 2px dashed #fff;
             right: 16%;
             z-index: -1;
             @media screen and (max-width: 768px) {
@@ -127,18 +127,21 @@
             // background: rgba($color: white, $alpha: 0.7);
             border-radius: 12px;
             padding: 16px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            // display: flex;
+            // align-items: center;
+            // justify-content: center;
             // z-index: 8;
             height: auto;
-            margin: 0;
+            margin: 0 auto;
             position: relative;
+            @media screen and (max-width: 768px) {
+                padding: 0 16px;
+            }
             .no {
                 position: absolute;
-                left: 8%;
+                left: 0%;
                 background: #1b1b1b;
-                top: 8%;
+                top: 0%;
                 padding: 0px 0;
                 width: 50px;
                 height: 50px;
@@ -156,14 +159,30 @@
                     font-size: 1.2rem;
                 }
             }
+            .hubung {
+                width: 83%;
+                margin: 0 auto;
+            }
+            h4 {
+                font-family: "Quicksand" !important;
+                font-size: 1.7rem;
+                @media screen and (max-width: 768px) {
+                    font-size: 1.4rem;
+                }
+            }
             p {
                 // position: absolute;
                 // left: 50%;
-                width: 75%;
-                text-align: center;
+                // width: 75%;
+                font-size: 1rem;
+                // text-align: center;
                 // top: 50%;
                 // translate: -50% -50%;
                 color: #1b1b1b;
+                @media screen and (max-width: 768px) {
+                    height: 100px;
+                    overflow-y: auto;
+                }
             }
         }
     }
