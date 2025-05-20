@@ -33,14 +33,18 @@
         margin-bottom: 8px;
         .logo {
             width: 100px;
-            height: auto;
+            height: 100px;
             display: inline-block;
+            border-radius: 50%;
             background: white;
-            border-radius: 16%;
+            padding: 8px;
+            // border-radius: 16%;
             @media screen and (max-width: 768px) {
                 width: 75px;
+                height: 75px;
             }
             img {
+                // border-radius: 50%;
                 width: 100%;
                 height: 100%;
                 object-fit: contain;
@@ -50,11 +54,13 @@
             display: inline-block;
             vertical-align: middle;
             background: linear-gradient(to right, white, #eaeaea);
-            padding: 8px 8px 8px 24px;
-            margin-left: -16px;
+            padding: 8px 16px 8px 24px;
+            margin-left: -24px;
+            position: relative;
+            z-index: -1;
             border-radius: 0 16px 16px 0;
             @media screen and (max-width: 768px) {
-                padding: 4px 8px 4px 12px;
+                padding: 4px 8px 4px 24px;
             }
         }
         .nama {
@@ -102,9 +108,65 @@
 .desc-formasi {
     background: silver;
     min-height: auto;
+    .all {
+        display: block;
+        position: relative;
+        margin-bottom: 8px;
+        .logo {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            border-radius: 50%;
+            background: white;
+            padding: 8px;
+            // border-radius: 16%;
+            @media screen and (max-width: 768px) {
+                width: 75px;
+                height: 75px;
+            }
+            img {
+                // border-radius: 50%;
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        .datax {
+            display: inline-block;
+            vertical-align: middle;
+            background: linear-gradient(to right, white, #eaeaea);
+            padding: 8px 16px 8px 24px;
+            margin-left: -24px;
+            position: relative;
+            z-index: -1;
+            border-radius: 0 16px 16px 0;
+            @media screen and (max-width: 768px) {
+                padding: 4px 8px 4px 24px;
+            }
+        }
+        .nama {
+            // margin-left: 8px;
+            font-size: 1.3rem;
+            // color: white;
+            font-weight: bold;
+            @media screen and (max-width: 768px) {
+                font-size: 1rem;
+            }
+        }
+        .jumlah {
+            // color: white;
+        }
+    }
 
     p {
         color: #1b1b1b;
         font-weight: 500;
+    }
+}
+
+.w-help {
+    width: 880px !important;
+    @media screen and (max-width: 768px) {
+        width: 90% !important;
     }
 }

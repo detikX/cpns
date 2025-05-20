@@ -217,6 +217,16 @@ section {
             font-size: 1.6rem;
         }
     }
+    h4 {
+        // color: $colorred;
+        font-family: "Sour Gummy", sans-serif;
+        font-weight: 700;
+        color: #fcfcfc;
+        font-size: 2.3rem;
+        @media screen and (max-width: 768px) {
+            font-size: 1.3rem;
+        }
+    }
 
     .bg-block {
         background: white;
@@ -385,11 +395,11 @@ body {
     }
 }
 
-h4,
-h5 {
-    font-family: "Jost", sans-serif !important;
-    font-weight: bold;
-}
+// h4,
+// h5 {
+//     font-family: "Jost", sans-serif !important;
+//     font-weight: bold;
+// }
 
 /* the slides */
 .slick-slide {

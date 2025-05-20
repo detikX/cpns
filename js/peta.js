@@ -38,13 +38,7 @@
 
     // Build the chart
     const chart = Highcharts.mapChart('container-peta', {
-        mapNavigation: {
-            enabled: true,
-            enableMouseWheelZoom: false,
-            buttonOptions: {
-                verticalAlign: 'bottom'
-            }
-        },
+
         chart: {
             animation: false,
             backgroundColor: 'rgba(255,255,255,0)',
@@ -52,6 +46,10 @@
             // enableMouseWheelZoom: false,
             // zoomType: 'xy',
 
+        },
+        mapNavigation: {
+            enabled: true,
+            enableMouseWheelZoom: false // This disables zooming with scroll
         },
 
         legend: {

@@ -10,7 +10,7 @@
         height: 10px;
         background: #545454;
     }
-    background: #828282;
+    background: #5b5b5b;
     .gajix {
         margin: 32px auto;
         width: 70%;
@@ -31,10 +31,12 @@
         right: 0;
         top: 0;
         // background: #333;
-        height: 100vh;
+        height: 90vh;
+        top: 5%;
         overflow: hidden;
         @media screen and (max-width: 768px) {
             top: 25%;
+            height: 100vh;
         }
     }
     .photo {
