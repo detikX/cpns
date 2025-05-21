@@ -43,7 +43,7 @@ gsap.timeline({
 $('.slider-alur').slick({
     infinite: true,
     speed: 300,
-    fade: true,
+    // fade: true,
     cssEase: 'linear'
 });
 

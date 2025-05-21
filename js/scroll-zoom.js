@@ -34,14 +34,15 @@ const zoomData = [ //kiri, atas
     // { scale: 1, origin: [0.5, 0.5] },
     // { scale: 1, origin: [0.5, 0.5] }, // roda ban backup 0.8, 1
     // { scale: 1, origin: [0.5, 0.5] },
-    { scale: 1, origin: [0.5, 0.5] },
-    { scale: 2, origin: [0.5, 0.8] },
-    { scale: 1, origin: [0.5, 0, 5] }, // roda ban backup 0.8, 1
+    { scale: 1, origin: [0.5, 0.5] }, //indo
+    { scale: 2.5, origin: [0.4, 0.4] }, //pontianak
+    { scale: 3, origin: [0.3, 0.7] }, // bandung barat
+    { scale: 4, origin: [0.4, .7] }, // Blitar
     // { scale: 1, origin: [0.5, 0.5] },
-    { scale: 2.5, origin: [0.5, 0.8] }, // radiator
-    { scale: 1, origin: [0.5, 0.5] },
-    { scale: 2.3, origin: [0.5, 0.8] }, //oli mesin
-    { scale: 1, origin: [0.5, 0.5] },
+    { scale: 4, origin: [0.43, 0.7] }, // Malang
+    { scale: 4, origin: [0.47, 0.7] }, // gianyar
+    { scale: 3.5, origin: [0.7, 0.4] }, //teodore
+    { scale: 3, origin: [0.4, 0.4] }, // kapuas hulu
     { scale: 2.5, origin: [.5, .8] }, // ac
     { scale: 1, origin: [0.5, 0.5] },
     { scale: 2.5, origin: [.5, .2] }, // tune up

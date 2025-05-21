@@ -21,113 +21,74 @@
             object-fit: contain;
         }
     }
+}
+.bagian {
+    min-height: 100vh;
+}
 
-    .bagian {
-        min-height: 100vh;
-    }
-    .right-side {
-        width: 100%;
-        position: sticky;
-        right: 0;
-        top: 0;
-        // background: #333;
-        height: 90vh;
-        top: 5%;
-        overflow: hidden;
-        @media screen and (max-width: 768px) {
-            top: 25%;
-            height: 100vh;
-        }
+.up-80 {
+    margin-top: -90vh;
+}
+
+.right-side {
+    width: 100%;
+    position: sticky;
+    right: 0;
+    top: 0;
+    // background: #333;
+    height: 90vh;
+    top: 16%;
+    overflow: hidden;
+    @media screen and (max-width: 768px) {
+        top: 25%;
+        height: 100vh;
     }
     .photo {
         width: 100%;
         height: 100%;
         z-index: 1;
-        background-image: url("../img/gaji.png");
+        background-image: url("../img/peta.png");
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
         @media screen and (max-width: 768px) {
             height: 50%;
-            background-size: cover;
+            background-size: contain;
         }
     }
-    .data {
-        &-judul {
-            position: relative;
-            z-index: 3;
-            // background: linear-gradient(-45deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
-            // background: linear-gradient(to bottom, rgba($colorred, 0.8), rgba($colorsecond, 0.5));
-            background: rgba($color: #1b1b1b, $alpha: 0.5);
-            width: fit-content;
-            border-radius: 16px;
-            padding: 16px;
-            p,
-            li {
-                color: white;
+}
+.data {
+    &-judul {
+        position: relative;
+        z-index: 3;
+        // background: linear-gradient(-45deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
+        // background: linear-gradient(to bottom, rgba($colorred, 0.8), rgba($colorsecond, 0.5));
+        background: rgba($color: #1b1b1b, $alpha: 0.5);
+        width: fit-content;
+        border-radius: 16px;
+        padding: 16px;
+        p,
+        li {
+            color: white;
 
-                // color: black;
-                // font-size: 1.5rem;
-                @media screen and (max-width: 768px) {
-                    // font-size: 1.2rem;
-                }
+            // color: black;
+            // font-size: 1.5rem;
+            @media screen and (max-width: 768px) {
+                // font-size: 1.2rem;
             }
-            h3 {
-                // color: #ffeb5b;
-                // color: black;
-                color: white;
-                text-align: center;
-                font-weight: 500;
-                font-family: "Righteous";
-                font-size: 2.2rem;
-            }
+        }
+        h3 {
+            // color: #ffeb5b;
+            // color: black;
+            color: white;
+            // text-align: center;
+            font-weight: 500;
+            // font-family: "Righteous";
+            font-size: 2.2rem;
         }
     }
 }
 
-.zigzag {
-    background-color: #f6c;
-    background-image: linear-gradient(
-            135deg,
-            rgba(255, 255, 255, 1) 0%,
-            rgba(255, 255, 255, 1) 25%,
-            rgba(255, 255, 255, 0) 25%,
-            rgba(255, 255, 255, 0) 100%
-        ),
-        linear-gradient(
-            45deg,
-            rgba(255, 255, 255, 0) 0%,
-            rgba(255, 255, 255, 0) 75%,
-            rgba(255, 255, 255, 1) 75%,
-            rgba(255, 255, 255, 1) 100%
-        ),
-        linear-gradient(
-            45deg,
-            rgba(255, 255, 255, 1) 0%,
-            rgba(255, 255, 255, 1) 25%,
-            rgba(255, 255, 255, 0) 25%,
-            rgba(255, 255, 255, 0) 100%
-        ),
-        linear-gradient(
-            135deg,
-            rgba(255, 255, 255, 0) 0%,
-            rgba(255, 255, 255, 0) 75%,
-            rgba(255, 255, 255, 1) 75%,
-            rgba(255, 255, 255, 1) 100%
-        );
-    background-position:
-        0 0,
-        0 0,
-        0 100%,
-        0 100%;
-    background-repeat: repeat-x, repeat-x, repeat-x, repeat-x;
-    background-size:
-        0.25em 0.25em,
-        0.25em 0.25em,
-        0.25em 0.25em,
-        0.25em 0.25em;
-    color: #fff;
-    line-height: 1em;
-    padding: 0.9em;
-    text-align: center;
+.bg-trans {
+    background: transparent !important;
 }
