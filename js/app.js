@@ -94,9 +94,9 @@ gsap.timeline({
     })
     .from(".text4", {
         y: innerHeight * 1,
-        stagger: {
-            amount: 0.5,
-        }
+        // stagger: {
+        //     amount: 0.5,
+        // }
     })
 
 
