@@ -1,10 +1,4 @@
-Highcharts.setOptions({
-    lang: {
-        thousandsSep: '.'
-    }
-})
-
-Highcharts.chart('container', {
+Highcharts.chart('container-cpnsx', {
     chart: {
         type: 'column',
         backgroundColor: 'rgba(170,129,67,1)',
@@ -21,33 +15,12 @@ Highcharts.chart('container', {
     exporting: {
         enabled: true
     },
-    credits: {
-        enabled: false //buat highcharts com
-    },
-    subtitle: {
-        text: null,
-    },
     xAxis: {
         categories: [/*'2016', '2018',*/ '2021', '2022', '2024'],
         crosshair: true,
         accessibility: {
             description: 'Countries'
-        },
-        labels: {
-            // text: null,
-            // formatter: function () {
-            //     // var a = this.y.toString().replace('.', ',');
-            //     // return a + '%';
-            // },
-            style: {
-                // color: "#fafafa",
-                font: 'bold 14px "Source Code Pro", sans-serif',
-                // lineHeight: '2rem'
-                color: "#1b1b1b",
-                // fontWeight: 'bold',
-                textOutline: false
-            }
-        },
+        }
     },
     yAxis: {
         min: 0,
@@ -70,7 +43,7 @@ Highcharts.chart('container', {
         },
     },
     tooltip: {
-        valueSuffix: ' Orang',
+        valueSuffix: ' orang',
         style: {
             // fontWeight: 'bold',
             fontFamily: 'Source Code Pro',
@@ -93,9 +66,7 @@ Highcharts.chart('container', {
         }
     },
     legend: { enabled: false },
-
     series: [
-
         // {
         //     name: 'Formasi yang dibuka',
         //     // {y: 34.4, color: 'red'}, 
@@ -104,7 +75,13 @@ Highcharts.chart('container', {
         {
             name: 'Mengundurkan Diri',
             // {y: 34.4, color: 'red'}, 
+            data: [/*460300, 520000,*/ { y: 126741, color: '#d3ae89' }, { y: 1921, color: '#d3ae89' }, { y: 1967, color: '#d3ae89' }]
+        },
+        {
+            name: 'Mengundurkan Diri',
+            // {y: 34.4, color: 'red'}, 
             data: [/*460300, 520000,*/ { y: 105, color: '#d3ae89' }, { y: 1921, color: '#d3ae89' }, { y: 1967, color: '#d3ae89' }]
-        }
+        },
+
     ]
 });

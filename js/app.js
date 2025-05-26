@@ -92,7 +92,7 @@ gsap.timeline({
     .from(".box2", {
         opacity: 0,
     })
-    .from(".text4", {
+    .from(".text4y", {
         y: innerHeight * 1,
         // stagger: {
         //     amount: 0.5,
