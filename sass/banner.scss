@@ -1,8 +1,57 @@
 .banner {
     padding: 0;
     @media screen and (max-width: 768px) {
-        min-height: 75vh;
+        min-height: 90vh;
     }
+
+    .container_mouse {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        // text-transform: uppercase;
+        padding-top: 2rem;
+        position: absolute;
+        left: 50%;
+        top: 90%;
+        translate: -50% -50%;
+        cursor: pointer;
+        @media screen and (max-width: 768px) {
+            top: 93%;
+            padding-top: 0;
+        }
+    }
+
+    .container_mouse .mouse-btn {
+        margin: 10px auto;
+        width: 20px;
+        height: 40px;
+        border: 2px solid white;
+        border-radius: 30px;
+        display: flex;
+    }
+
+    .container_mouse .mouse-btn .mouse-scroll {
+        display: block;
+        width: 10px;
+        height: 10px;
+        background: linear-gradient(170deg, rgba(122, 122, 124, 0.918), rgb(123, 124, 124));
+        border-radius: 50%;
+        margin: auto;
+        animation: scrolling 1s linear infinite;
+    }
+
+    @keyframes scrolling {
+        0% {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(10px);
+        }
+    }
+
     .bumper {
         position: absolute;
         width: 100%;

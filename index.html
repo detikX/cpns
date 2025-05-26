@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ribuan CPNS Mengundurkan Diri</title>
         <link rel="stylesheet" href="sass/bootstrap.min.css">
+        <link rel="stylesheet" href="sass/animate.min.css">
         <link rel="stylesheet" href="sass/all.css">
         <link rel="stylesheet" href="sass/slick-theme.css">
         <link rel="stylesheet" href="sass/slick.css">
@@ -23,28 +24,65 @@
                 <div class="bumper">
                     <img src="img/banner-01.jpg" alt="">
                 </div>
-                <div class="cpns">
+                <div class="cpns wow animate__animated animate__fadeInLeftBig" data-wow-delay="1s">
                     <img src="img/keluar.png" alt="">
                 </div>
-                <div class="judul">
+                <div class="judul wow animate__animated animate__backInDown" data-wow-delay="2s">
                     <h2>
                         Pengunduran Diri Massal CPNS
                     </h2>
                 </div>
+                <div class="container_mouse wow animate__animated animate__backInUp" data-wow-delay="3s" id="scroll">
+                    <span class="mouse-btn">
+                        <span class="mouse-scroll"></span>
+                    </span>
+                    <span>
+                        <i>Scroll</i>
+                        ke bawah
+                    </span>
+                </div>
             </section>
             <section class="pembukaan">
                 <div class="wrap-detikx">
+                    <div class="sub-bab">
+                        <div class="text-center">
+                            <p>Apa saja yang terdapat dalam artikel ini?</p>
+                        </div>
+                        <ul>
+                            <li>
+                                Data Pengunduran Diri CPNS
+                            </li>
+                            <li>
+                                Formasi CPNS 2024
+                            </li>
+                            <li>
+                                Alur Seleksi CPNS
+                            </li>
+                            <li>
+                                Faktor yang membuat CPNS Mundur
+                            </li>
+                            <li>
+                                Gaji dan Fasilitas CPNS
+                            </li>
+                        </ul>
+                    </div>
                     <p>
                         Jumlah pelamar menjadi PNS terus bertambah setiap tahunnya. Tahun lalu hampir 4 juta orang mendaftarkan diri. Namun belakangan mereka justru mengundurkan diri setelah lolos seleksi.
                     </p>
                 </div>
             </section>
             <section class="data">
-                <div class="wrap-detikx">
+                <div class="wrap-detikx mb-5">
                     <figure class="highcharts-figure">
                         <div id="container"></div>
                     </figure>
                 </div>
+                <br>
+                <br>
+                <div class="wrap-detikx mt-5">
+                    <div id="container-undur"></div>
+                </div>
+                <div class="line-line"></div>
             </section>
             <section class="formasi">
                 <div class="sticky-mode">
@@ -491,8 +529,14 @@ PPPK: 6.974
                     </div>
                 </div>
             </section>
+            <section class="infog">
+                <div class="wrap-detikx">
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit placeat sunt, totam minus itaque amet eum exercitationem nisi perferendis est tempora corrupti consequatur incidunt quo necessitatibus libero, rem porro debitis.
+                    </p>
+                </div>
+            </section>
             <section class="gaji">
-                <!-- <div class="zigzag"></div> -->
                 <div class="sticky-mode">
                     <div class="gajix">
                         <img src="img/karyawan-gaji.png" alt="">
@@ -588,68 +632,62 @@ PPPK: 6.974
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- <div class="wrap-detikx mt-5">
-                <p>
-                    Selain gaji pokok, CPNS juga menerima beragam tunjangan dan fasilitas sebagai bagian dari kompensasi mereka. Tunjangan-tunjangan ini mencakup dukungan untuk keluarga, penghargaan atas jabatan yang diemban, insentif berdasarkan kinerja (Tukin), bantuan biaya makan dan transportasi, serta kompensasi khusus untuk penugasan di daerah terpencil atau dengan tanggung jawab tertentu. Di samping itu, CPNS juga berhak atas Tunjangan Hari Raya (THR) dan gaji ke-13 sebagai tambahan penghasilan tahunan. Lebih detail mengenai beberapa keuntungan tersebut:
-                </p>
-            </div> -->
-            <div class="box2">
-                <div class="text4y">
-                    <div class="text-center judul-bg">
-                        <h3>Tunjangan CPNS</h3>
-                    </div>
-                    <div class="wrap-detikx w-help">
-                        <ul>
-                            <li>
-                                <div class="iconx">
-                                    <img src="img/tunjangan-16.png" alt="">
-                                </div>
-                                <div class="judulx">Tunjangan Keluarga</div>
-                            </li>
-                            <li>
-                                <div class="iconx">
-                                    <img src="img/tunjangan-20.png" alt="">
-                                </div>
-                                <div class="judulx">Tunjangan Jabatan</div>
-                            </li>
-                            <li>
-                                <div class="iconx">
-                                    <img src="img/tunjangan-15.png" alt="">
-                                </div>
-                                <div class="judulx">Tunjangan Kinerja</div>
-                            </li>
-                            <li>
-                                <div class="iconx">
-                                    <img src="img/tunjangan-17.png" alt="">
-                                </div>
-                                <div class="judulx">Tunjangan Makan</div>
-                            </li>
-                            <li>
-                                <div class="iconx">
-                                    <img src="img/tunjangan-18.png" alt="">
-                                </div>
-                                <div class="judulx">Tunjangan Transportasi</div>
-                            </li>
-                            <li>
-                                <div class="iconx">
-                                    <img src="img/tunjangan-21.png" alt="">
-                                </div>
-                                <div class="judulx">Tunjangan Khusus</div>
-                            </li>
-                            <li>
-                                <div class="iconx">
-                                    <img src="img/tunjangan-22.png" alt="">
-                                </div>
-                                <div class="judulx">Hari Raya</div>
-                            </li>
-                            <li>
-                                <div class="iconx">
-                                    <img src="img/tunjangan-19.png" alt="">
-                                </div>
-                                <div class="judulx">Gaji Ke-13</div>
-                            </li>
-                            <!-- <li>Tunjangan Keluarga: Bantuan finansial bagi CPNS yang telah berkeluarga dan memiliki buah hati.</li>
+                <div class="box2">
+                    <div class="text4y">
+                        <div class="text-center judul-bg">
+                            <h3>Tunjangan CPNS</h3>
+                        </div>
+                        <div class="wrap-detikx w-help">
+                            <ul>
+                                <li>
+                                    <div class="iconx">
+                                        <img src="img/tunjangan-16.png" alt="">
+                                    </div>
+                                    <div class="judulx">Tunjangan Keluarga</div>
+                                </li>
+                                <li>
+                                    <div class="iconx">
+                                        <img src="img/tunjangan-20.png" alt="">
+                                    </div>
+                                    <div class="judulx">Tunjangan Jabatan</div>
+                                </li>
+                                <li>
+                                    <div class="iconx">
+                                        <img src="img/tunjangan-15.png" alt="">
+                                    </div>
+                                    <div class="judulx">Tunjangan Kinerja</div>
+                                </li>
+                                <li>
+                                    <div class="iconx">
+                                        <img src="img/tunjangan-17.png" alt="">
+                                    </div>
+                                    <div class="judulx">Tunjangan Makan</div>
+                                </li>
+                                <li>
+                                    <div class="iconx">
+                                        <img src="img/tunjangan-18.png" alt="">
+                                    </div>
+                                    <div class="judulx">Tunjangan Transportasi</div>
+                                </li>
+                                <li>
+                                    <div class="iconx">
+                                        <img src="img/tunjangan-21.png" alt="">
+                                    </div>
+                                    <div class="judulx">Tunjangan Khusus</div>
+                                </li>
+                                <li>
+                                    <div class="iconx">
+                                        <img src="img/tunjangan-22.png" alt="">
+                                    </div>
+                                    <div class="judulx">Hari Raya</div>
+                                </li>
+                                <li>
+                                    <div class="iconx">
+                                        <img src="img/tunjangan-19.png" alt="">
+                                    </div>
+                                    <div class="judulx">Gaji Ke-13</div>
+                                </li>
+                                <!-- <li>Tunjangan Keluarga: Bantuan finansial bagi CPNS yang telah berkeluarga dan memiliki buah hati.</li>
                             <li>Tunjangan Jabatan: Kompensasi tambahan bagi CPNS yang menduduki posisi struktural atau fungsional tertentu, dengan besaran yang disesuaikan dengan tingkat jabatan.</li>
                             <li>Tunjangan Kinerja: Penghargaan finansial yang diberikan kepada CPNS sebagai bentuk apresiasi atas kinerja yang baik.</li>
                             <li>Tunjangan Makan: Bantuan biaya konsumsi yang diberikan setiap hari kerja.</li>
@@ -657,37 +695,38 @@ PPPK: 6.974
                             <li>Tunjangan Khusus: Kompensasi tambahan bagi CPNS yang bertugas di wilayah dengan akses sulit atau memiliki tugas-tugas spesifik.</li>
                             <li>Tunjangan Hari Raya (THR): Bantuan keuangan yang diberikan setahun sekali menjelang perayaan hari besar keagamaan.</li>
                             <li>Gaji Ke-13: Tambahan penghasilan yang dibayarkan setiap tahun.</li> -->
-                        </ul>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="satulagi">
-            <div class="wrap-detikx">
-                <p>
-                    Selain tunjangan-tunjangan tersebut, CPNS juga mendapatkan fasilitas lain seperti jaminan kesehatan yang memadai, jaminan pensiun untuk masa purna tugas, serta kemudahan dalam mengajukan pinjaman ke lembaga perbankan.
-                </p>
-            </div>
-        </section>
-    </main>
-    <script src="js/jquery-3.5.1.min.js"></script>
-    <script src="js/gsap.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/ScrollTrigger.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="https://code.highcharts.com/highcharts.js"></script>
-    <!-- <script src="https://code.highcharts.com/maps/modules/map.js"></script>
+            </section>
+            <section class="satulagi">
+                <div class="wrap-detikx">
+                    <p>
+                        Selain tunjangan-tunjangan tersebut, CPNS juga mendapatkan fasilitas lain seperti jaminan kesehatan yang memadai, jaminan pensiun untuk masa purna tugas, serta kemudahan dalam mengajukan pinjaman ke lembaga perbankan.
+                    </p>
+                </div>
+            </section>
+        </main>
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/gsap.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/ScrollTrigger.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <!-- <script src="https://code.highcharts.com/maps/modules/map.js"></script>
         <script src="https://code.highcharts.com/maps/modules/series-on-point.js"></script> -->
-    <!-- <script src="https://code.highcharts.com/modules/exporting.js"></script> -->
-    <script src="https://code.highcharts.com/modules/export-data.js"></script>
-    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
-    <!-- <script src="js/CustomEase3.min.js"></script>
+        <!-- <script src="https://code.highcharts.com/modules/exporting.js"></script> -->
+        <script src="https://code.highcharts.com/modules/export-data.js"></script>
+        <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+        <!-- <script src="js/CustomEase3.min.js"></script>
         <script src="js/CustomWiggle3.min.js"></script> -->
-    <script src="js/data-cpns.js"></script>
-    <!-- <script src="js/cpns.js"></script> -->
-    <script src="js/app.js"></script>
-    <script src="js/scroll-zoom.js"></script>
-    <!-- <script src="js/app.js"></script> -->
-    <!-- <script src="js/peta.js"></script> -->
-</body>
+        <script src="js/data-cpns.js"></script>
+        <script src="js/data-undur.js"></script>
+        <!-- <script src="js/cpns.js"></script> -->
+        <script src="js/app.js"></script>
+        <script src="js/scroll-zoom.js"></script>
+        <!-- <script src="js/app.js"></script> -->
+        <!-- <script src="js/peta.js"></script> -->
+    </body>
 </html>

@@ -1,3 +1,12 @@
 .pembukaan {
     min-height: auto;
+    .sub-bab {
+        padding: 16px;
+        /* border: 1px solid #fff; */
+        margin-bottom: 32px;
+        background: #262b2e;
+        li {
+            color: white;
+        }
+    }
 }

@@ -1,5 +1,14 @@
+$(document).ready(function () {
+    // AOS.init();
+    new WOW().init();
+})
 
 
+$('#scroll').click(function (event) {
+    $('html, body').animate({
+        scrollTop: $(".pembukaan").offset().top
+    }, 300);
+});
 //buat animasi sticky
 gsap.timeline({
     scrollTrigger: {

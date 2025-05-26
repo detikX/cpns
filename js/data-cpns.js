@@ -70,7 +70,7 @@ Highcharts.chart('container', {
         },
     },
     tooltip: {
-        valueSuffix: ' Orang',
+        valueSuffix: '',
         style: {
             // fontWeight: 'bold',
             fontFamily: 'Source Code Pro',
@@ -92,19 +92,34 @@ Highcharts.chart('container', {
             }
         }
     },
-    legend: { enabled: false },
+    //legend: { enabled: false },
+    legend: {
+        itemStyle: {
+            font: 'bold .8rem Quicksand',
+            color: '#1b1b1b'
+        },
+
+
+    },
 
     series: [
 
-        // {
-        //     name: 'Formasi yang dibuka',
-        //     // {y: 34.4, color: 'red'}, 
-        //     data: [/*460300, 520000,*/ { y: 126741, color: '#a67e55' }, { y: 8941, color: '#a67e55' }, { y: 3963832, color: '#a67e55' }]
-        // },
         {
-            name: 'Mengundurkan Diri',
+            name: 'Jumlah Pendaftar',
+            color: "#fafafa",
             // {y: 34.4, color: 'red'}, 
-            data: [/*460300, 520000,*/ { y: 105, color: '#d3ae89' }, { y: 1921, color: '#d3ae89' }, { y: 1967, color: '#d3ae89' }]
-        }
+            data: [/*460300, 520000,*/ { y: 226741, color: '#fafafa' }, { y: 1263181, color: '#fafafa' }, { y: 3963832, color: '#fafafa' }]
+        },
+        {
+            name: 'Formasi yang Dibuka',
+            // {y: 34.4, color: 'red'},
+            color: "#ccc",
+            data: [/*460300, 520000,*/ { y: 126741, color: '#ccc' }, { y: 28903, color: '#ccc' }, { y: 1289824, color: '#ccc' }]
+        },
+        // {
+        //     name: 'Formasi yang Dibuka',
+        //     // {y: 34.4, color: 'red'}, 
+        //     data: [/*460300, 520000,*/ { y: 105, color: '#d3ae89' }, { y: 1921, color: '#d3ae89' }, { y: 1967, color: '#d3ae89' }]
+        // }
     ]
 });

@@ -1,6 +1,7 @@
 .lokasi {
     padding: 0;
     min-height: auto;
+    background: #747474;
 
     .teropong {
         position: absolute;
@@ -22,9 +23,9 @@
             position: absolute;
             right: -8%;
             z-index: -1;
-            bottom: 0;
-            width: 32%;
-            height: auto;
+            bottom: -2%;
+            width: 50%;
+            height: 34%;
             rotate: 13deg;
             overflow: hidden;
         }
