@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    // AOS.init();
+    AOS.init();
     new WOW().init();
 })
 
