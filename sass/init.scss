@@ -734,6 +734,19 @@ section {
             font-weight: 600;
         }
     }
+
+    &::after {
+        width: 0;
+        height: 0;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        translate: -50% -50%;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-top: 50px solid #1b1b1b;
+        content: "";
+    }
 }
 
 // .creditx
