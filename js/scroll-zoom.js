@@ -43,14 +43,14 @@ const zoomData = [ //kiri, atas
     { scale: 4, origin: [0.47, 0.7] }, // gianyar
     { scale: 3.5, origin: [0.7, 0.4] }, //teodore
     { scale: 3, origin: [0.4, 0.4] }, // kapuas hulu
-    { scale: 2.5, origin: [.5, .8] }, // ac
-    { scale: 1, origin: [0.5, 0.5] },
-    { scale: 2.5, origin: [.5, .2] }, // tune up
-    { scale: 1, origin: [0.5, 0.5] },
-    { scale: 2.5, origin: [.5, .3] },// komponen pendukung
-    { scale: 1, origin: [0.5, 0.5] },
-    { scale: 2, origin: [.5, .2] },//sistem rem
-    { scale: 1, origin: [0.5, 0.5] },
+    { scale: 3, origin: [.5, .7] }, // mataram
+    { scale: 2, origin: [0.2, 0.7] }, //metro
+    { scale: 4.5, origin: [.2, .45] }, // karimun
+    { scale: 3, origin: [.15, .53] }, //palembang
+    { scale: 2.5, origin: [.5, .7] },// bima
+    { scale: 3.2, origin: [0.15, 0.53] },//merangin
+    { scale: 3, origin: [.15, .46] },//batam
+    { scale: 2, origin: [0.15, 0.53] },//serolangun
 ];
 
 // now loop through each section and create the ScrollTrigger accordingly.
