@@ -96,7 +96,7 @@ Highcharts.chart('container-undur', {
             name: 'Jumlah 2021',
             y: 105
         }, {
-            name: 'Jumlah 2023',
+            name: 'Jumlah 2022',
             y: 1921
         }, {
             name: 'Jumlah 2024',
