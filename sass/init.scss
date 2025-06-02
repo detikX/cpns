@@ -715,6 +715,16 @@ section {
     }
 }
 
+.source-code {
+    p {
+        font-family: "Source Code Pro";
+        text-align: center;
+        // font-size: ;
+    }
+    border-bottom: 1px dashed white;
+    margin-bottom: 16px;
+}
+
 .creditx {
     min-height: auto !important;
     background: #2d2d2d;
